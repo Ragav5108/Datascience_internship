@@ -1,0 +1,96 @@
+#integer
+a=12
+print(type(a))
+
+output:
+<class 'int'>
+
+[Program finished]
+#float
+a=1.2
+print(type(a))
+
+output:
+<class 'float'>
+
+[Program finished]
+#complex
+a=3+4j
+print(type(a))
+
+output:
+<class 'complex'>
+
+[Program finished]
+#string
+a='ragav'
+print(type(a))
+
+output:
+<class 'str'>
+
+[Program finished]
+#boolean
+a=False
+print(type(a))
+
+output:
+<class 'bool'>
+
+[Program finished]
+#list
+a=[1,'apple',1.5,'a']
+print(type(a))
+
+output:
+<class 'list'>
+
+[Program finished]
+#tuple
+a=(1,'apple',1.5,'@')
+print(type(a))
+
+output:
+<class 'tuple'>
+
+[Program finished]
+#dictionary
+a={1:'apple',2:'1'}
+print(type(a))
+
+output:
+<class 'dict'>
+
+[Program finished]
+#set
+a={1,2,3}
+print(type(a))
+
+output:
+<class 'set'>
+
+[Program finished]
+#range
+a=range(5)
+print(type(a),a)
+
+output:
+<class 'range'> range(0, 5)
+
+[Program finished]
+#frozenset
+a= frozenset(["@", "b", 1])
+print(type(a))
+
+output:
+<class 'frozenset'>
+
+[Program finished]
+#none type
+a= None
+print(type(a))
+
+output:
+<class 'NoneType'>
+
+[Program finished]
