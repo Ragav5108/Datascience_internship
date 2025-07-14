@@ -1,0 +1,2 @@
+a='ragav'
+print(a.upper())
