@@ -1,2 +1,84 @@
-a='ragav'
-print(a.upper())
+text = "HELLO"
+print(text.lower()) 
+#Output: hello
+
+text = "hello"
+print(text.upper()) 
+#Output: HELLO
+
+text = "hello world"
+print(text.title())  
+# Output: Hello World
+
+text = "hello"
+print(text.capitalize())  
+# Output: Hello
+
+text = "  hello  "
+print(text.strip()) 
+# Output: hello
+
+text = "  hello"
+print(text.lstrip())  
+# Output: hello
+
+text = "hello  "
+print(text.rstrip()) 
+# Output: hello
+
+text = "hello world"
+print(text.replace("world", "Python"))  
+# Output: hello Python
+
+text = "a,b,c"
+print(text.split(",")) 
+# Output: ['a', 'b', 'c']
+
+items = ['a', 'b', 'c']
+print(",".join(items))  
+# Output: a,b,c
+
+text = "hello"
+print(text.find('l'))  
+# Output: 2
+
+text = "hello"
+print(text.index('e'))  
+# Output: 1
+
+text = "banana"
+print(text.count('a')) 
+# Output: 3
+
+text = "hello"
+print(text.startswith("he"))  
+# Output: True
+
+text = "hello"
+print(text.endswith("lo")) 
+# Output: True
+
+text = "Hello"
+print(text.isalpha())  
+# Output: True
+
+text = "12345"
+print(text.isdigit())  
+# Output: True
+
+text = "abc123"
+print(text.isalnum())  
+# Output: True
+
+text = "   "
+print(text.isspace())  
+# Output: True
+
+text = "HeLLo"
+print(text.swapcase()) 
+# Output: hEllO
+
+text = "42"
+print(text.zfill(5))  
+# Output: 00042
+
